@@ -1,0 +1,40 @@
+.calculator{
+    width: 230px;
+    background-color:gray;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+h1{
+    color:black;
+    text-align: center;
+    margin-left: 40px;
+}
+
+#display{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: black;
+    
+    
+}
+
+body{
+    background-image:url(images/calculator.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
